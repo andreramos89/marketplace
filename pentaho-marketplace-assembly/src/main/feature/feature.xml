@@ -18,6 +18,8 @@
     <bundle>pentaho-webjars:mvn:org.webjars.bower/angular-animate/${angular.version}</bundle>
     <bundle>pentaho-webjars:mvn:org.webjars.bower/angular-translate/${angular-translate.version}</bundle>
     <bundle>pentaho-webjars:mvn:org.webjars.bower/angular-ui-bootstrap-bower/${angular-ui-bootstrap-bower.version}</bundle>
+    <bundle>mvn:org.glassfish.hk2.osgiresourcelocator:osgi-resource-locator</bundle>
+    <bundle>mvn:javax.xml.bind:jaxb-osgi</bundle>
     <!-- END -->
   </feature>
 
