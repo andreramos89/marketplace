@@ -18,6 +18,11 @@
     <bundle>pentaho-webjars:mvn:org.webjars.bower/angular-animate/${angular.version}</bundle>
     <bundle>pentaho-webjars:mvn:org.webjars.bower/angular-translate/${angular-translate.version}</bundle>
     <bundle>pentaho-webjars:mvn:org.webjars.bower/angular-ui-bootstrap-bower/${angular-ui-bootstrap-bower.version}</bundle>
+    <bundle>mvn:com.sun.xml.bind/jaxb-impl/2.3.0</bundle>
+    <bundle>mvn:javax.xml.bind/jaxb-api/2.3.0</bundle>
+    <bundle>mvn:com.sun.xml.bind/jaxb-core/2.3.0</bundle>
+    <bundle>mvn:com.sun.xml.bind/jaxb-osgi/2.3.0</bundle>
+
     <!-- END -->
   </feature>
 

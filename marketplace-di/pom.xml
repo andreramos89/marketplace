@@ -135,7 +135,7 @@
                 In javax.xml.bind.ContextFinder::getContextClassLoader() it gets the ClassLoader from the current Thread (Thread.currentThread().getContextClassLoader()), effectively getting the main ClassLoader (or any other) 
                 instead of the bundle’s ClassLoader.
              -->
-            <Import-Package>!javax.xml.namespace, javax.xml.bind;version="[2.0.0,3.0.0)", javax.xml.bind.annotation;version="[2.0.0,3.0.0)", javax.xml.bind.annotation.adapters;version="[2.0.0,3.0.0)", org.apache.commons.codec, *</Import-Package>
+            <Import-Package>!javax.xml.namespace, com.sun.xml.bind;version="[2.0.0,3.0.0)", javax.xml.bind;version="[2.0.0,3.0.0)", javax.xml.bind.annotation;version="[2.0.0,3.0.0)", javax.xml.bind.annotation.adapters;version="[2.0.0,3.0.0)", org.apache.commons.codec, *</Import-Package>
 
             <Private-Package>org.pentaho.marketplace.*;-split-package:=merge-last</Private-Package>
 
